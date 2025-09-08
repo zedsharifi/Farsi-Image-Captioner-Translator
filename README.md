@@ -31,20 +31,6 @@ The process is orchestrated by the main script and can be broken down into the f
 
 ---
 
-## 📂 Project Structure
-
-```
-.
-├── main.py             # Main script to run the entire pipeline
-├── captioner.py        # Contains the ClipCap model and ImageCaptioner class
-├── translator.py       # Wrapper for the SeamlessM4T translation model
-├── utils.py            # Helper functions for downloading models and loading images
-├── requirements.txt    # A list of all Python dependencies for the project
-└── README.md           # This documentation file
-```
-
----
-
 ## ⚡ Setup and Installation
 
 Follow these steps to get the project running on your local machine.
