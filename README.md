@@ -116,7 +116,6 @@ Translating caption to Farsi...
 ## 📸 Demo Screenshots
 
 Here are 8 examples of the pipeline in action.  
-(Each image contains its English caption and Farsi translation inside the image itself.)
 
 <p align="center">
   <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/1.PNG" width="22%" />
