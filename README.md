@@ -37,8 +37,8 @@ Follow these steps to get the project running on your local machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone https://github.com/zedsharifi/Farsi-Image-Captioner-Translator.git
+cd Farsi-Image-Captioner-Translator
 ```
 
 ### 2. Create a Python Virtual Environment (Recommended)
