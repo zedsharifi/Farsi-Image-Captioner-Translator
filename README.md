@@ -1,4 +1,3 @@
-
 # 🖼️ Image Captioning and Translation Pipeline
 
 This project presents a complete pipeline that takes an **image as input**, generates a **descriptive caption in English**, and then translates that caption into **Farsi**.  
@@ -44,6 +43,20 @@ The process is orchestrated by the main script and can be broken down into the f
 
 ---
 
+## 📂 Project Structure
+
+.
+├── main.py # Main script to run the entire pipeline
+├── captioner.py # Contains the ClipCap model and ImageCaptioner class
+├── translator.py # Wrapper for the SeamlessM4T translation model
+├── utils.py # Helper functions for downloading models and loading images
+├── requirements.txt # A list of all Python dependencies for the project
+└── README.md # This documentation file
+
+yaml
+Copy code
+
+---
 
 ## ⚡ Setup and Installation
 
