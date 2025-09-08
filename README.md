@@ -119,17 +119,17 @@ Here are 8 examples of the pipeline in action.
 (Each image contains its English caption and Farsi translation inside the image itself.)
 
 <p align="center">
-  <img src="./images/img1.jpg" width="22%" />
-  <img src="./images/img2.jpg" width="22%" />
-  <img src="./images/img3.jpg" width="22%" />
-  <img src="./images/img4.jpg" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/1.PNG" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/2.PNG" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/3.PNG" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/4.PNG" width="22%" />
 </p>
 
 <p align="center">
-  <img src="./images/img5.jpg" width="22%" />
-  <img src="./images/img6.jpg" width="22%" />
-  <img src="./images/img7.jpg" width="22%" />
-  <img src="./images/img8.jpg" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/5.PNG" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/6.PNG" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/7.PNG" width="22%" />
+  <img src="https://github.com/zedsharifi/Farsi-Image-Captioner-Translator/blob/main/images/8.PNG" width="22%" />
 </p>
 
 ---
