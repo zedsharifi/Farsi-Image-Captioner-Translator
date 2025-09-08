@@ -33,7 +33,7 @@ The process is orchestrated by the main script and can be broken down into the f
 
 ## 📂 Project Structure
 
-```text
+```
 .
 ├── main.py             # Main script to run the entire pipeline
 ├── captioner.py        # Contains the ClipCap model and ImageCaptioner class
@@ -41,48 +41,62 @@ The process is orchestrated by the main script and can be broken down into the f
 ├── utils.py            # Helper functions for downloading models and loading images
 ├── requirements.txt    # A list of all Python dependencies for the project
 └── README.md           # This documentation file
-⚡ Setup and Installation
+```
+
+---
+
+## ⚡ Setup and Installation
+
 Follow these steps to get the project running on your local machine.
 
-1. Clone the Repository
-bash
-Copy code
+### 1. Clone the Repository
+```bash
 git clone <your-repo-url>
 cd <your-repo-directory>
-2. Create a Python Virtual Environment (Recommended)
-bash
-Copy code
+```
+
+### 2. Create a Python Virtual Environment (Recommended)
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy code
+```
+
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-▶️ Usage
+```
+
+---
+
+## ▶️ Usage
+
 Run the script from your terminal.
-The first time you run it:
 
-The captioner weights (coco_weights.pkl, ~235MB) will be downloaded.
+**The first time you run it:**
+- The captioner weights (coco_weights.pkl, ~235MB) will be downloaded.
+- The translation model will also be downloaded automatically by the transformers library.
 
-The translation model will also be downloaded automatically by the transformers library.
-
-Example with a URL
-bash
-Copy code
+### Example with a URL
+```bash
 python main.py "https://i.ytimg.com/vi/vEyP6J61H4s/maxresdefault.jpg"
-Example with a Local File
-bash
-Copy code
-python main.py "./images/my_photo.jpg"
-Options
-Prevent the script from opening a window to display the input image:
+```
 
-bash
-Copy code
+### Example with a Local File
+```bash
+python main.py "./images/my_photo.jpg"
+```
+
+### Options
+Prevent the script from opening a window to display the input image:
+```bash
 python main.py "path/to/your/image.jpg" --no-display
-📋 Example Output
-bash
-Copy code
+```
+
+---
+
+## 📋 Example Output
+
+```bash
 > python main.py "https://i.ytimg.com/vi/vEyP6J61H4s/maxresdefault.jpg"
 
 Loading image from: https://i.ytimg.com/vi/vEyP6J61H4s/maxresdefault.jpg
@@ -95,10 +109,31 @@ Generating caption...
 
 Translating caption to Farsi...
   [Farsi Translation]: یه گربه روی مبل با کنترل از راه دور نشسته
-📸 Demo Screenshots
-Here are 8 examples of the pipeline in action.
+```
+
+---
+
+## 📸 Demo Screenshots
+
+Here are 8 examples of the pipeline in action.  
 (Each image contains its English caption and Farsi translation inside the image itself.)
 
-<p align="center"> <img src="./images/img1.jpg" width="22%" /> <img src="./images/img2.jpg" width="22%" /> <img src="./images/img3.jpg" width="22%" /> <img src="./images/img4.jpg" width="22%" /> </p> <p align="center"> <img src="./images/img5.jpg" width="22%" /> <img src="./images/img6.jpg" width="22%" /> <img src="./images/img7.jpg" width="22%" /> <img src="./images/img8.jpg" width="22%" /> </p>
-📌 License
+<p align="center">
+  <img src="./images/img1.jpg" width="22%" />
+  <img src="./images/img2.jpg" width="22%" />
+  <img src="./images/img3.jpg" width="22%" />
+  <img src="./images/img4.jpg" width="22%" />
+</p>
+
+<p align="center">
+  <img src="./images/img5.jpg" width="22%" />
+  <img src="./images/img6.jpg" width="22%" />
+  <img src="./images/img7.jpg" width="22%" />
+  <img src="./images/img8.jpg" width="22%" />
+</p>
+
+---
+
+## 📌 License
+
 This project is released under the MIT License.
